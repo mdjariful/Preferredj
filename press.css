@@ -1,0 +1,58 @@
+/*navigation*/
+#preferrednav{
+  opacity: .6;
+  background-color: #fff;
+  position: fixed;
+  width:100%;
+}
+.header {
+    font-family: "Georgia", Georgia, serif;
+}
+.header {
+   opacity: 0.9;
+}
+ .header:hover {
+    opacity: 1.0;
+ }
+
+/*header*/
+
+.header{
+    background-image: url("https://images.unsplash.com/photo-1513611620334-cde2ab025045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: 100% 100%;
+    height: 100%;
+    height: 550px;
+    width: 100%;
+    color: #fff;
+}
+.header h6 {
+    color: ;
+}
+.headers{
+    text-align: center;
+    padding: 120px;
+    color: #;
+}
+/*About*/
+.About {
+    text-align: justify;
+    padding: 80px 0;
+}
+
+}
+.jumbotron {
+    font-family: "Times New Roman", Times, serif;
+}
+.strong {
+    font-family: "Times New Roman", Times, serif;
+}
+#AboutUs .p{
+    padding: 20px 0:
+}
+
+#AboutUs img{
+    width: 100%;
+    height: 100%;
+    width: 400px;
+    height: 400px;
+}
