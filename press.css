@@ -5,15 +5,7 @@
   position: fixed;
   width:100%;
 }
-.header {
-    font-family: "Georgia", Georgia, serif;
-}
-.header {
-   opacity: 0.9;
-}
- .header:hover {
-    opacity: 1.0;
- }
+
 
 /*header*/
 
@@ -36,7 +28,7 @@
 /*About*/
 .About {
     text-align: justify;
-    padding: 80px 0;
+
 }
 
 }
