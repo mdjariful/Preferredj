@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.spm.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/pbs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title>Preferred Jewelers</title>
@@ -14,22 +14,28 @@
 
 <body>
 <!---Navigation bar--->
- <nav id="preferrednav" class="navbar navbar-expand-lg navbar-light bg-light">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link" href="#">Services</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link" href="#">Contact Us</a>
-
-    </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Pricing">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
   </div>
- </nav>
+</nav>
 <!---Header-->
 <header id="home" class="header">
     <div class="headers container">
@@ -41,14 +47,14 @@
 <!---About--->
 <section id="AboutUs" class="About">
   <div class="row jumbotron">
-    <div class="col-md-6 p">
+    <div class="col-lg-6 p">
     <h3>Few Words About Us</h3>
     <p>
 Preferred Jewelers started with a teenager in 1978 wanting to build his own business. Larry Nichols wanted to provide people with his favorite thing in the world, diamonds. His saying was "dogs may be a guys best friend, but diamonds are everyones best friend." He was determined to sell diamonds to as many people as she could. He started off with cheaper products and worked his way up to getting other jewelry companies to invest their product to his so she could sell them at his jewelry store. His business was slow at first, but it quickly picked up pace and is now one of the top jewelry stores in the U.S.
 </p>
     <strong>"Dogs may be a guy's best friend, but diamonds are everyone's best friend. - Larry Nichols</strong>
     </div>
-    <div class="col-md-6 img">
+    <div class="col-lg-6 head">
       <img src="https://i.pinimg.com/originals/1a/1c/af/1a1caf27d777d00b7c94ae712de0b2ee.jpg">
       
     </div>
@@ -84,15 +90,100 @@ Preferred Jewelers started with a teenager in 1978 wanting to build his own busi
   
   
 </section>
+
+<section id="Pricing"class= "pricing container">
+  <hr></hr>
+  <h3>May We Suggest</h3>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-2 pri">
+      <div class="standard">
+        <div class="Standard"><p>Diamond Solstice Pendant</p></div>
+        <div class="price"><p>$1,160</p></div>
+        <div class="description">
+          <P>Material: White Gold from the Nile</P>
+          <P>A Gift like this is sure to make your loved one pleased.</P>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2 pri">
+      <div class="premium">
+        <div class="Premium"><p>Women's Necklace: Forever & Always Personalized Diamond Pendant Necklace</p></div>
+        <div class="price"><p>Material: Diamond/Silver</p></div>
+        <div class="description">
+          <P>$120</P>
+        </div>
+    </div>
+    </div>
+     <div class="col-md-2 pri">
+      <div class="standard">
+        <div class="Standard"><p>Diamond Studs </p></div>
+        <div class="price"><p>Material: White Gold (14K)</p></div>
+        <div class="description">
+          <P>Price: $180</P>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-2 pri">
+      <div class="standard">
+        <div class="Standard"><p> T.W. Diamond Tennis Bracelet in Sterling Silver</p></div>
+        <div class="price"><p>$350</p></div>
+        <div class="description">
+        </div>
+      </div>
+      </div>
+      <div class="col-md-2 pri">
+      <div class="standard">
+        <div class="Standard"><p>Solitaire Diamond Six-Prong Knife-Edge Engagement Ring</p></div>
+        <div class="price"><p>$928</p></div>
+        <div class="description">
+          <P>White Gold</P>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-1"></div>
+</section>
+
+<section class="team container">
+  <h3>Our team</h3>
+  <hr></hr>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="img">
+      <img src="https://sample-videos.com/img/Sample-jpg-image-500kb.jpg">
+      </div>
+      <h4>Jane Dan</h4>
+      <h6>CEO</h6>
+    </div>
+    <div class="col-md-3">
+      <div class="img">
+      <img src="https://sample-videos.com/img/Sample-jpg-image-500kb.jpg">
+      </div>
+      <h4></h4>
+      <h6>Manager</h6>
+      <p>New to old in six minutes</p>
+    </div>
+    <div class="col-md-3">
+      <div class="img">
+      <img src="https://sample-videos.com/img/Sample-jpg-image-500kb.jpg">
+      </div>
+      <h4>Jane Dan</h4>
+      <h6>CEO</h6>
+      <p>New to old in six minutes</p>
+    </div>
+    <div class="col-md-3">
+      <div class="img">
+      <img src="https://sample-videos.com/img/Sample-jpg-image-500kb.jpg">
+      </div>
+      <h4>Jane Dan</h4>
+      <h6>CEO</h6>
+      <p>New to old in six minutes</p>
+    </div>
     
     
     
-    
-    
-    
-    
-    
-    
+  </div>
+</section>   
 
 
 </body>
