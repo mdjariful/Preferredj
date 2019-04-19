@@ -1,8 +1,9 @@
 /*General*/
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Merriweather', serif !important;
     background-color: #acd8e5 !important;
+    
 }
 
 
@@ -11,7 +12,7 @@ body {
 
 /*navigation*/
 
-/* Create a sticky/fixed navbar */
+/* Create a sticky/#fixed navbar */
 #navbar {
   overflow: hidden;
   background-color: #666666;
@@ -32,7 +33,7 @@ body {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18 px; 
+  font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
 }
@@ -41,12 +42,14 @@ body {
 #navbar #logo {
   font-size: 25px;
   font-weight: bold;
-  transition: 0.4s;
+  transition: 0.4;
 }
-
+#navbar-right a{
+    color: white;
+}
 /* Links on mouse-over */
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: #fff;
   color: black;
 }
 
@@ -80,19 +83,16 @@ body {
     background-image: url("https://images.unsplash.com/photo-1513611620334-cde2ab025045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
     background-size: 100% 100%;
     height: 100%;
-    height: 550px;
+    height: 650px;
     width: 100%;
     color: #fff;
 }
 
-.header h6 {
-    color: ;
-}
 
 .headers {
     text-align: center;
-    padding: 120px;
-    color: #;
+    color: #fff;
+    padding: 250px;
 }
 
 /*About*/
@@ -118,8 +118,9 @@ body {
 #AboutUs .head img {
     width: 100%;
     height: 100%;
-    width: 400px;
-    height: 400px;
+    width: 550px;
+    height: 450px;
+    text-align: center;
 }
 #smdiv{
     height: 350px;
@@ -127,6 +128,7 @@ body {
 /*Pricing*/
 #Pricing{
     padding: 80px 0 60px 0;
+    width: 100%;
 }
 #team{
     padding: 80px 0 60px 0;
@@ -142,10 +144,12 @@ body {
 .standard {
     border: 1px solid black;
     text-align: center;
-    height: 270px;
+    height: 300px;
     width: 100%;
 }
-
+.pri{
+    width: 200px;
+}
 .Standard {
     background: #004070;
     color: white;
@@ -159,7 +163,7 @@ body {
 }
 
 .price {
-    background: grey;
+    background: #F0F0D6;
     color: black;
     font-size: 14px;
     height: 50px;
@@ -208,11 +212,16 @@ body {
     text-align: center;
 }
 .standard:hover{
-    background-color: #F0F0D6;
+    background-color: #fff;
 }
 .premium:hover{
-    background-color: #F0F0D6;
+    background-color: #fff;
 }
+.pricingimg {
+    height:70px;
+    width: 135px;
+}
+
 /* team*/
 
 .team {
@@ -269,6 +278,7 @@ body {
 
 #services .box:hover {
     background: #fff;
+    border: 1px solid #add8e6;
 }
 
 #services .icon {
@@ -474,7 +484,10 @@ body {
 .team-member .team-img {
     position: relative;
 }
-
+.customerservice{
+    width: 200px;
+    height: 200px;
+}
 .team-hover {
     position: absolute;
     top: 0;
@@ -589,14 +602,10 @@ body {
 
 
 
-.carousel {
-    height: 500px;
-    width: 100%;
 
-}
 
 #yeoo {
-    height: 500px;
+    height: 700px;
     width: 100%;
 
 }
@@ -604,16 +613,18 @@ body {
 #trustedby {
     height: 200px;
     width: 100%;
-
 }
 
 #trustedbyme {
     padding: 40px;
-
+}
+.card-body:hover{
+    background: #F0F0D6;
 }
 
-
-
+.col-md-3{
+    
+}
 
 
 
@@ -740,3 +751,47 @@ body {
 #footer {
     background-color: #acd8e5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
